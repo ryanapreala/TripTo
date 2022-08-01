@@ -1,25 +1,26 @@
-const MenuItems =[
+const menuItems =[
    { tname: 'Restaurants',
     route:'#',
-    cname:'nav-link' 
+    cname:'nav' 
 
 },
     {
         tname: 'Bars',
         route: '#',
-        cname: 'nav-link'
+        cname: 'nav'
 
     },
     {
         tname: 'Hotels',
         route: '#',
-        cname: 'nav-link'
+        cname: 'nav'
 
     },
     {
         tname: 'Fast Food',
         route: '#',
-        cname: 'nav-link'
+        cname: 'nav'
 
     },
 ]
+export default menuItems

@@ -1,0 +1,17 @@
+.navmenu {
+        
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    text-align: center;
+    width: 70vw;
+    grid-gap: 10px;
+    list-style:none;
+    justify-content: flex-end;
+    
+}
+.nav{
+    color: beige;
+}
+.logo-holder{
+    color: beige;
+}
