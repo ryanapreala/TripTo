@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --button-medium1: "Open Sans";
+  --font-inter: Inter;
+  --text-regular-normal: Roboto;
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-xs: 14px;
+  --text-regular-normal-size: 16px;
+  --button-medium1-size: 20px;
+  --subtitle3-size: 24px;
+  --font-size-xl: 26px;
+  --font-size-2xl: 30px;
+  --h3-size: 40px;
+  --h1-size: 64px;
+
+  /* Colors */
+  --secondary-1: #fae0a5;
+  --white: #fff;
+  --white2: #f8f8f8;
+  --medium-gray: #c8c8c8;
+  --dark-gray: #6f6e6e;
+  --black1: #090909;
+  --black: #000;
+  --secondary-2: #fdf2db;
+  --primary1: #f5b955;
+  --accent: #d06224;
+  --secondary-4: #904d0e;
+
+  /* Gaps */
+  --gap-4xs: 4px;
+  --gap-3xs: 5px;
+  --gap-2xs: 14px;
+  --gap-xs: 16px;
+  --gap-sm: 17px;
+  --gap-md: 18px;
+  --gap-lg: 20px;
+  --gap-xl: 22px;
+  --gap-2xl: 26px;
+  --gap-3xl: 32px;
+  --gap-4xl: 41px;
+
+  /* Paddings */
+  --padding-xs: 8px;
+  --padding-sm: 16px;
+  --padding-md: 20px;
+  --padding-lg: 24px;
+  --padding-xl: 48px;
+
+  /* border radiuses */
+  --br-xs: 8px;
+  --br-sm: 10px;
+  --br-md: 15px;
+  --br-lg: 72.67px;
+}
