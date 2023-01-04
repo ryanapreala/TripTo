@@ -1,0 +1,84 @@
+.maskGroupIcon {
+  position: relative;
+  width: 380px;
+  height: 446.95px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.akageraNationalPark {
+  align-self: stretch;
+  font-weight: 600;
+}
+.akageraNationalPark,
+.milesAway {
+  position: relative;
+  display: inline-block;
+}
+.moneyMouthFace1Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.milesAwayParent,
+.moneyMouthFace1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.milesAwayParent {
+  flex-direction: column;
+}
+.iconlyboldstar {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.frameParent,
+.iconlyboldstarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconlyboldstarParent {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  color: var(--black);
+}
+.frameParent {
+  width: 374px;
+  justify-content: space-between;
+  font-size: var(--button-medium1-size);
+  color: var(--dark-gray);
+}
+.akageraNationalParkParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+.akageraNationalParkParent,
+.booking,
+.maskGroupParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.maskGroupParent {
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.booking {
+  border-radius: var(--br-md);
+  background-color: var(--secondary-2);
+  flex-direction: row;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--subtitle3-size);
+  color: var(--black);
+  font-family: var(--button-medium1);
+}

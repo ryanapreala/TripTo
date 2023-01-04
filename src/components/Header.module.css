@@ -1,0 +1,11 @@
+.travelDatesChild {
+  position: absolute;
+  height: 75%;
+  width: 100%;
+  top: 11.25%;
+  right: 0;
+  bottom: 13.75%;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--white2);
+}

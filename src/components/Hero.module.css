@@ -1,0 +1,7 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 539px;
+}

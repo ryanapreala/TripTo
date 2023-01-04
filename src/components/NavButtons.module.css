@@ -1,0 +1,80 @@
+.cancel {
+  position: relative;
+  letter-spacing: 1.25px;
+  display: inline-block;
+}
+.buttonPlain,
+.buttonPlain1,
+.homePageButtons {
+  border-radius: var(--br-xs);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonPlain {
+  background-color: var(--primary1);
+  width: 300px;
+  flex-shrink: 0;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.buttonPlain1,
+.homePageButtons {
+  justify-content: flex-start;
+}
+.buttonPlain1 {
+  background-color: var(--secondary-2);
+  width: 300px;
+  flex-shrink: 0;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.homePageButtonsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.iconlylightOutlinefilter {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.buttonPlain2 {
+  border-radius: var(--br-xs);
+  background-color: var(--secondary-2);
+  height: 60px;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.buttonPlain2,
+.homePageButtons2,
+.navButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.homePageButtons2 {
+  border-radius: var(--br-xs);
+  height: 60px;
+  justify-content: flex-start;
+  color: var(--accent);
+}
+.navButtons {
+  position: absolute;
+  top: 653px;
+  left: 61px;
+  width: 1312px;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--button-medium1-size);
+  color: var(--black1);
+  font-family: var(--button-medium1);
+}
